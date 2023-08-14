@@ -27,11 +27,7 @@
   #more {
     display: inherit
   }
-  header .overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
-  }
+  
   #dropdown {
     position: fixed;
     top: 1em;
@@ -120,13 +116,6 @@
     right: 0;
   }
 
-  header .search-button,
-  header .menu-button {
-    display: inherit;
-  }
-  header img {
-    display: none;
-  }
   #listing {
     margin-bottom: 5em;
   }
