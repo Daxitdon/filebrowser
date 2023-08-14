@@ -6,11 +6,12 @@
       <span v-if="selectedCount > 0">{{ selectedCount }} selected</span>
       
       <action
-        v-if="headerButtons.download"
-        icon="download"
-        :label="$t('buttons.download')"
-        show="download"
-      />
+          v-if="headerButtons.download"
+          icon="file_download"
+          :label="$t('buttons.download')"
+          @action="download"
+          :counter="selectedCount"
+        />
     </div>
 
     <div v-if="loading">
