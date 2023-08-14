@@ -9,24 +9,7 @@
       <file-list @update:selected="(val) => (dest = val)"></file-list>
     </div>
 
-    <div class="card-action">
-      <button
-        class="button button--flat button--grey"
-        @click="$store.commit('closeHovers')"
-        :aria-label="$t('buttons.cancel')"
-        :title="$t('buttons.cancel')"
-      >
-        {{ $t("buttons.cancel") }}
-      </button>
-      <button
-        class="button button--flat"
-        @click="copy"
-        :aria-label="$t('buttons.copy')"
-        :title="$t('buttons.copy')"
-      >
-        {{ $t("buttons.copy") }}
-      </button>
-    </div>
+    
   </div>
 </template>
 

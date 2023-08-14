@@ -103,24 +103,7 @@
         />
       </div>
 
-      <div class="card-action">
-        <button
-          class="button button--flat button--grey"
-          @click="() => switchListing()"
-          :aria-label="$t('buttons.cancel')"
-          :title="$t('buttons.cancel')"
-        >
-          {{ $t("buttons.cancel") }}
-        </button>
-        <button
-          class="button button--flat button--blue"
-          @click="submit"
-          :aria-label="$t('buttons.share')"
-          :title="$t('buttons.share')"
-        >
-          {{ $t("buttons.share") }}
-        </button>
-      </div>
+      
     </template>
   </div>
 </template>

@@ -18,25 +18,7 @@
       />
     </div>
 
-    <div class="card-action">
-      <button
-        class="button button--flat button--grey"
-        @click="$store.commit('closeHovers')"
-        :aria-label="$t('buttons.cancel')"
-        :title="$t('buttons.cancel')"
-      >
-        {{ $t("buttons.cancel") }}
-      </button>
-      <button
-        @click="submit"
-        class="button button--flat"
-        type="submit"
-        :aria-label="$t('buttons.rename')"
-        :title="$t('buttons.rename')"
-      >
-        {{ $t("buttons.rename") }}
-      </button>
-    </div>
+    
   </div>
 </template>
 

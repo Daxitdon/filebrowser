@@ -8,25 +8,7 @@
       <file-list @update:selected="(val) => (dest = val)"></file-list>
     </div>
 
-    <div class="card-action">
-      <button
-        class="button button--flat button--grey"
-        @click="$store.commit('closeHovers')"
-        :aria-label="$t('buttons.cancel')"
-        :title="$t('buttons.cancel')"
-      >
-        {{ $t("buttons.cancel") }}
-      </button>
-      <button
-        class="button button--flat"
-        @click="move"
-        :disabled="$route.path === dest"
-        :aria-label="$t('buttons.move')"
-        :title="$t('buttons.move')"
-      >
-        {{ $t("buttons.move") }}
-      </button>
-    </div>
+    
   </div>
 </template>
 
