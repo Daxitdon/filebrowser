@@ -4,11 +4,12 @@
 
     <div v-if="isMobile" id="file-selection">
       <span v-if="selectedCount > 0">{{ selectedCount }} selected</span>
+      
       <action
-        v-if="headerButtons.delete"
-        icon="delete"
-        :label="$t('buttons.delete')"
-        show="delete"
+        v-if="headerButtons.download"
+        icon="download"
+        :label="$t('buttons.download')"
+        show="download"
       />
     </div>
 
