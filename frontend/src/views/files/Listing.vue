@@ -274,7 +274,6 @@ import * as upload from "@/utils/upload";
 import css from "@/utils/css";
 import throttle from "lodash.throttle";
 
-import HeaderBar from "@/components/header/HeaderBar";
 import Action from "@/components/header/Action";
 import Search from "@/components/Search";
 import Item from "@/components/files/ListingItem";
@@ -282,7 +281,6 @@ import Item from "@/components/files/ListingItem";
 export default {
   name: "listing",
   components: {
-    HeaderBar,
     Action,
     Search,
     Item,

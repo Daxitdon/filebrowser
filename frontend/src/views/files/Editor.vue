@@ -30,14 +30,12 @@ import ace from "ace-builds/src-min-noconflict/ace.js";
 import modelist from "ace-builds/src-min-noconflict/ext-modelist.js";
 import "ace-builds/webpack-resolver";
 
-import HeaderBar from "@/components/header/HeaderBar";
 import Action from "@/components/header/Action";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export default {
   name: "editor",
   components: {
-    HeaderBar,
     Action,
     Breadcrumbs,
   },

@@ -185,7 +185,6 @@ import { pub as api } from "@/api";
 import filesize from "filesize";
 import moment from "moment";
 
-import HeaderBar from "@/components/header/HeaderBar";
 import Action from "@/components/header/Action";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Errors from "@/views/Errors";
@@ -196,7 +195,6 @@ import Clipboard from "clipboard";
 export default {
   name: "share",
   components: {
-    HeaderBar,
     Action,
     Breadcrumbs,
     Item,

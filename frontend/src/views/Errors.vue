@@ -10,7 +10,6 @@
 </template>
 
 <script>
-import HeaderBar from "@/components/header/HeaderBar";
 
 const errors = {
   0: {
@@ -34,7 +33,6 @@ const errors = {
 export default {
   name: "errors",
   components: {
-    HeaderBar,
   },
   props: ["errorCode", "showHeader"],
   computed: {
