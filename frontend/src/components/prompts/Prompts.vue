@@ -65,8 +65,8 @@ export default {
       // Enter
       if (event.keyCode == 13) {
         switch (this.show) {
-          case "delete":
-            prompt.download(event);
+          case "download":
+            prompt.download();
             break;
           case "copy":
             prompt.copy(event);
