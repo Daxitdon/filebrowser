@@ -197,14 +197,12 @@ import css from "@/utils/css";
 import throttle from "lodash.throttle";
 
 import Action from "@/components/header/Action";
-import Search from "@/components/Search";
 import Item from "@/components/files/ListingItem";
 
 export default {
   name: "listing",
   components: {
     Action,
-    Search,
     Item,
   },
   data: function () {
