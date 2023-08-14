@@ -1,5 +1,22 @@
 <template>
-  
+  <header>
+    <img v-if="showLogo !== undefined" :src="logoURL" />
+    
+
+    <slot />
+
+    <div id="dropdown" :class="{ active: this.$store.state.show === 'more' }">
+      <slot name="actions" />
+    </div>
+
+    
+
+    <div
+      class="overlay"
+      v-show="this.$store.state.show == 'more'"
+      @click="$store.commit('closeHovers')"
+    />
+  </header>
 </template>
 
 <script>
